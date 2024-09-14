@@ -215,7 +215,8 @@ body {
 }
 
 .heading {
-    font-size: 50px;
+    font-style: italic;
+    font-size: 60px;
     line-height: 1;
     text-align: center;
 }
@@ -225,12 +226,10 @@ body {
 }
 
 .porfolio-content {
-    margin-top: 50px;
+    margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
+    grid-template-columns: auto auto auto;
+    gap: 50px 30px;
 }
 
 .row {
@@ -241,16 +240,17 @@ body {
 }
 
 .row img {
-    width: 300px;
+    width: 400px;
     height: 500px;
     border-radius: 8px;
     display: block;
-    transition: transform 0.5 s;
+    transition: transform 1s;
 }
 
 .layer {
+    border-radius: 20px;
     margin-top: 20px;
-    width: 300px;
+    width: 400px;
     height: 50px;
     background-color: rgb(4, 167, 75);
 }
