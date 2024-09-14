@@ -248,9 +248,10 @@ body {
 }
 
 .layer {
+    margin-left: 10px;
     border-radius: 20px;
     margin-top: 20px;
-    width: 400px;
+    width: 350px;
     height: 50px;
     background-color: rgb(4, 167, 75);
 }
